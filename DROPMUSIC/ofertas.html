@@ -1,0 +1,56 @@
+<!-- ofertas.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drop Music - Ofertas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style-ofertas.css">
+  <script src="https://kit.fontawesome.com/a2e0b5c6c1.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-100">
+  <header class="bg-black text-white p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Drop Music</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Inicio</a>
+      <a href="productos.html" class="hover:underline">Productos</a>
+      <a href="ofertas.html" class="hover:underline">Ofertas</a>
+      <a href="nosotros.html" class="hover:underline">Nosotros</a>
+      <a href="contacto.html" class="hover:underline">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="container mx-auto mt-8">
+    <h2 class="text-3xl font-semibold text-center mb-6">Promociones Especiales</h2>
+    <div id="carouselOfertas" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="IMG_2210.JPG" class="d-block w-100 rounded" alt="Oferta Vinilos">
+        </div>
+        <div class="carousel-item">
+          <img src="IMG_2263.JPG" class="d-block w-100 rounded" alt="Oferta CDs">
+        </div>
+        <div class="carousel-item">
+          <img src="IMG_2273.JPG" class="d-block w-100 rounded" alt="Oferta Merch">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselOfertas" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselOfertas" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <footer class="bg-black text-white mt-12 p-6 text-center">
+    <p>&copy; 2025 Drop Music - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

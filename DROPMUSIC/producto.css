@@ -1,0 +1,11 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #1F2937;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}

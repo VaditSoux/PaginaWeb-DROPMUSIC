@@ -1,0 +1,12 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #1F2937;
+}
+
+.carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+}
